@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.rumi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rumi">
+        <activity
+            android:name=".Fakta13"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta12"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta11"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta10"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta9"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta8"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta7"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta6"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta5"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta4"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta3"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta2"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta1"
+            android:exported="false" />
+        <activity
+            android:name=".Rukun3"
+            android:exported="false" />
+        <activity
+            android:name=".Rukun2"
+            android:exported="false" />
+        <activity
+            android:name=".Rukun1"
+            android:exported="false" />
+        <activity
+            android:name=".Fakta"
+            android:exported="false" />
+        <activity
+            android:name=".Rukun"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah13"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah12"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah11"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah10"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah9"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah8"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah7"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah6"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah5"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah4"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah3"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah2"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah1"
+            android:exported="false" />
+        <activity
+            android:name=".Kisah"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

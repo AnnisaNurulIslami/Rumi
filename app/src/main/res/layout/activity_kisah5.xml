@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah5">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/k5_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah5" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/kisah5" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/k5_img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Abu Hurairah adalah salah seorang sahabat Nabi yang dikenal penyabar. Dengan sifat sabarnya, ia pun terus mengajak ibunya masuk Islam. Namun, ibunya selalu menolak. Abu Hurairah tak putus asa. Ia pun terus mengajak ibunya masuk Islam. Ia juga menceritakan tentang Rasulullah kepada ibunya. Tapi, ibunya menjadi marah. Dengan wajah kesal, ibunya menjawab, \“Sudahlah, jangan memaksa ibu!\” Ibunya kemudian mengatakan sesuatu yang jelek tentang Rasulullah. Namun, Abi Hurairah tetap bersabar dan bersikap ramah kepada ibunya. Ia tetap melayaninya meskipun ibunya telah memarahi dan mengecewakannya.
+\n\nDalam kesempatan lain, Abu Hurairah Kembali mengajak ibunya untuk masuk Islam. Namun, ibunya tetap saja menolak. Kemudian, ia pergi menemui Rasulullah dan menceritakan tentang ibunya. Abu Hurairah pun meminta Rasulullah mendoakan ibunya agar mendapatkan hidayah. Rasulullah pun berdoa. Tak lama kemudian, Abu Hurairah pulang ke rumahnya. Ia mengetuk pintu. Begitu pintu terbuka, ibunya kemudian mengucapkan syahadat. Abu Hurairah pun sangat bersyukur kepada Allah Swt.
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

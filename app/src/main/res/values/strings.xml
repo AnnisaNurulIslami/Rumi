@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rumi</string>
+    <string name="kisah">Kisah-Kisah Islam</string>
+    <string name="rukun">Rukun-Rukun Islam</string>
+    <string name="fakta">Fakta-Fakta Islam</string>
+
+    <string name="title1">Mengkhatamkan Al-Qur\'an 2-3 Menit</string>
+    <string name="title2">Merasa Diawasi Allah SWT</string>
+    <string name="title3">Sulitnya Khusyu\' Saat Salat</string>
+    <string name="title4">Mengingatkan tanpa Menyinggung</string>
+    <string name="title5">Abu Hurairah (Sosok yang Sabar)</string>
+    <string name="title6">Kalah oleh Lalat</string>
+    <string name="title7">Kendaraan Angin dari Allah SWT</string>
+    <string name="title8">Jin Terpesona Ayat-Ayat Al-Qur\'an</string>
+    <string name="title9">Tentara Kafir Masuk Islam</string>
+    <string name="title10">Pengaruh Wudu</string>
+    <string name="title11">Air Tuba Dibalas dengan Air Susu</string>
+    <string name="title12">Abdullah bin Umar (Sahabat yang Selalu Mendekatkan Diri Kepada Allah SWT)</string>
+    <string name="title13">Kalung Emas Tiket ke Surga</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

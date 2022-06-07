@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:padding="20dp"
+    tools:context=".Rukun2">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/navy"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_rukun2" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="93dp"
+        android:src="@drawable/muslim" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Salah satu hadist yang menjelaskan tentang 3 rukun utama dalam agama islam adalah hadist Jibril yang terkenal dari sahabat Umar Ra.
+Dari hadist Jibril tersebut, ketika Malaikat Jibril bertanya tentang Iman, maka Rasulullah bersabda:
+"
+                    android:textColor="@color/white"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="
+أَنْ تُؤْمِنَ بِاللهِ وَمَلاَئِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَاليَوْمِ الآخِرِ وَتُؤْمِنَ بِالقَدَرِ خَيْرِهِ وَشَرِّهِ
+
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Artinya:
+\“Iman itu ialah engkau beriman kepada Allah, para malaikat-Nya, kitab-kitab-Nya, para Rasul-Nya, hari akhir dan engkau beriman terhadap qodho’ dan qodar, yang baik maupun buruk\”.
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Jadi, Iman merupakan keyakinan dalam hati kita yang diucapkan melalui lisan dan diwujudkan dalam amal perbuatan. Berikut urutan rukun iman:"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.	Iman kepada Allah"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2.	Iman kepada Malaikat"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3.	Iman kepada Kitab"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4.	Iman kepada Nabi dan Rasul"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5.	Iman kepada hari akhir"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6.	Iman kepada qodho’ dan qodar"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

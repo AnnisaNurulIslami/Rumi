@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/drawable/ic_home.xml" value="0.1575" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/drawable/ic_home_black.xml" value="0.1575" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta.xml" value="0.16" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta1.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta10.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta11.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta12.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta13.xml" value="0.22282608695652173" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta2.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta3.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta4.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta5.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta6.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta7.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta8.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_fakta9.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah1.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah10.xml" value="0.19270833333333334" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah11.xml" value="0.19166666666666668" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah12.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah13.xml" value="0.19166666666666668" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah2.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah3.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah4.xml" value="0.19270833333333334" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah5.xml" value="0.19270833333333334" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah6.xml" value="0.19270833333333334" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah7.xml" value="0.19166666666666668" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah8.xml" value="0.19166666666666668" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_kisah9.xml" value="0.19166666666666668" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_rukun.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_rukun1.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_rukun2.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/activity_rukun3.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/Rumi/app/src/main/res/layout/fragment_kisah2.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

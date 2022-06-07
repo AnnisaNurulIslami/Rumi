@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/army"
+    android:padding="20dp"
+    tools:context=".Fakta7">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/army"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/banner_fakta7" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/know" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Islam tidak menentukan bentuk pemerintahan tertentu. Sebaliknya, ia memaksakan kondisi bahwa, apa pun bentuknya, tanggung jawab pemerintah harus selalu dijalankan dengan kesetaraan, keadilan, dan kasih sayang – selalu memenuhi dan menjunjung tinggi hak asasi manusia. Islam tidak mengizinkan diskriminasi apa pun berdasarkan warna kulit, keyakinan, kekayaan, atau status sosial."
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="19sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

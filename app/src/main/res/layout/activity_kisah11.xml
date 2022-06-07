@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah11">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah11" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/kisah11" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Suatu hari, Ibrahim bin Adham (seorang Ulama) pergi ke padang pasir yang sangat luas. Di tengah perjalanan ia bertemu seorang tentara. Tentara itu bertanya di mana ia dapat menjumpai kampung yang paling ramai. Ibrahim bin Adham menjawab, \“Kuburan\”.
+\n\nTentara itu marah dan memukul kepala Ibrahim bin Adham. Tak lama kemudian, tentara itu bertemu seorang laki-laki yang mengenal Ibrahim. Laki-laki itu berkata, \“Tahukah kamu, orang yang yang kamu pukul adalah Ibrahim bin Adham. Ia adalah seorang ulama dari Khurasan.\”
+\n\nSi tentara sangat terkejut. Ia merasa menyesal telah berlaku kasar terhadap sang ulama. Ia lalu pergi meminta maaf kepada Ibrahim bin Adham. Ibrahim lalu berkata kepada tentara itu, \“Ketika kamu memukulku, aku mendoakanmu agar Allah memasukkanmu ke dalam surga.\”
+\n\n\“Kenapa demikian?\” tanya si tentara.
+\n\nIbrahim lalu menjawab, \“Karena aku akan memperoleh pahala dari Allah karena kau telah memukulku. Aku tidak ingin menjadi baik dengan kerugianmu.\”
+\n\nTentara itu merasa takjub dengan akhlak yang dimiliki sang ulama. Seolah-olah, sang ulama itu telah membalas air tuba dengan air susu (membalas kejahatan dengan kebaikan).
+"
+
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

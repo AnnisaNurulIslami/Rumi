@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah2">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/k2_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah2" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/kisah2" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/k2_img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Salah seorang syaikh memiliki beberapa orang murid. Namun, ia memberikan perhatian lebih pada salah seorang muridnya. Hal ini membuat iri murid yang lainnya. Mereka pun protes pada sang guru yang biasa dipanggil Syaikh. Sang guru lalu memanggil semua muridnya. Ia memberikan seekor burung kepada setiap murid dan menyuruh mereka menyembelih burung itu di tempat yang tidak terlihat oleh siapa pun.
+\n\nMaka para murid pun berangkat melaksanakan tugas yang diberikan gurunya. Di antara mereka ada yang pergi ke puncak bukit. Ada yang pergi ke gua terpencil. Bahkan ada yang pergi ke balik pepohonan tinggi yang tersembunyi. Ketika merasa tak ada yang melihat, mereka segera menyembelih burung yang dibawanya.
+\n\nTak lama kemudian, mereka kembali dengan membawa burung sembelihannya. Kecuali sang murid kesayangan sang guru. Syaikh lalu bertanya kepadanya,\”Kenapa kamu tidak menyembelih burung itu?\”
+\n\nMurid kesayangan itu menjawab, \“Tadi guru menyuruhku menyembelih burung di tempat yang tak terlihat oleh siapa pun. Tapi, aku tak dapat menemukan tempat seperti itu. Allah kan berada dimana-mana dan akan melihat perbuatanku.\”
+\n\nMendengar penjelasan sang murid, Syaikh lalu berkata pada murid yang lain,\”Kini, kalian tahu kenapa aku menyayangi dan memberikan perhatian lebih padanya.\”
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

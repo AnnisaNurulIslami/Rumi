@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah9">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah9" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/kisah9" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Suatu ketika, Ibnul Mubarak terlibat pertempuran dengan tentara kafir. Dalam pertempuran itu, ia dapat membuat musuhnya terdesak. Tentara kafir itu meminta waktu untuk bersembahyang. Ibnul Mubarak mengizinkannya. Tentara kafir itu lalu melaksanakan ibadahnya. Ia kemudian menyembah matahari.
+\n\nKetika musuhnya sedang beribadah, tiba-tiba Ibnul Mubarak berniat untuk mencelakainya. Namun ketika ia hendak melaksanakan niatnya itu, tiba-tiba terdengar suara di angkasa, \“Dan penuhilah janji. Sesungguhnya janji itu pasti akan diminta pertanggungjawabannya.\” (QS. Al-Isra\’: 34)
+\n\nSeketika pula Ibnul Mubarak segera mengurungkan niatnya. Namun rupanya, niat Ibnul Mubarak itu diketahui oleh tentara kafir. Tentara kafir lalu bertanya kepadanya, \“Kenapa kamu mengurungkan niatmu untuk mencelakaiku?\”
+\n\nIbnul Mubarak lalu menjelaskan tentang suara yang didengarnya. Tentara kafir itu lalu berkata, \“Betapa Mahasempurna dan Mahaagung Tuhan yang memarahi hamba-Nya dan membela musuh-Nya.\”
+\n\nMaka, sejak saat itu tentara kafir itu masuk Islam. Bahkan, ia menjadi muslim yang baik. Ia banyak menghabiskan waktunya untuk beribadah kepada Allah SWT.
+"
+
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

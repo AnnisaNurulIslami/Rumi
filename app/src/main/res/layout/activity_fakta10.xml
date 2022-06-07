@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/army"
+    android:padding="20dp"
+    tools:context=".Fakta10">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/army"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/banner_fakta10" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/know" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Kata \“Jihad\” dalam bahasa Arab secara harfiah berarti \“berjuang\” dan tidak mengandung konotasi \“Perang Suci\”. Upaya ini dapat dilakukan baik untuk perbaikan diri sendiri maupun untuk tujuan defensif, ketika umat Islam dilarang menjalankan agama mereka. Namun, bila dilakukan dalam bentuk pertahanan bersenjata, ia harus mematuhi aturan yang sangat ketat yang mengatur kegiatan tersebut dengan kembalinya perdamaian yang cepat di antara mereka. "
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="18sp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsregular"
+                    android:text="Islam secara eksplisit melarang penyebaran iman melalui paksaan atau pemerasan. Nabi Muhammad (saw) tidak pernah menggunakan pedang untuk menyebarkan Islam. Tak satu pun dari apa yang disebut Jihad hari ini berada di bawah definisi ketat ini. Oleh karena itu, membunuh orang yang tidak bersalah sebagai bagian dari beberapa jenis perang atau perang bunuh diri adalah konsep asing dalam Islam dan sepenuhnya dilarang."
+                    android:textColor="@color/white"
+                    android:justificationMode="inter_word"
+                    android:textSize="18sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah12">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah12" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/kisah12" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Abdullah bin Umar adalah putra Umar bin Khattab. Abdullah bin Umar memiliki banyak keistimewaan. Ilmunya sangat tinggi, rendah hati, dermawan, shalih, tekun beribadah, dan memiliki tekad dan keteguhan pendirian yang kuat. Keistimewaan yang dimilikinya itu digunakan untuk membela Islam.
+\n\nAbdullah bin Umar termasuk orang yang hidup makmur dan berpenghasilan banyak. Ia adalah saudagar yang jujur dan berhasil dalam kehidupannya. Di samping itu, gajinya dari Baitul Mal tidaklah sedikit. Semua hartanya tidak dipergunakan untuk pribadinya, namun untuk membantu fakir miskin dan orang yang membutuhkan. Hal ini ia lakukan agar dapat mendekatkan diri kepada Allah.
+\n\nDalam perjuangannya membela Islam, Abdullah bin Umar selalu menolak menggunakan kekerasan dan alat senjata. Ia terus berjuang dan berjuang demi Islam. Hal ini dilakukannya hingga ajal menjemput. Ia pun meninggal dalam keridhaan Allah Swt.
+"
+
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

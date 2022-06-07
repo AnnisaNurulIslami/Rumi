@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah10">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah10" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/kisah10" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Suatu hari, Fatimah ra datang ke rumah Nabi saw sambil menangis. Rasul lalu bertanya, \“Kenapa kamu menangis, putriku?\”
+\n\n\“Aku sangat bersedih karena mengetahui para pemuka Qurays kini telah mengikat janji dan bersumpah atas nama Tuhan mereka, Latta, Uzza, dan Manat. Jika mereka mendapati ayah, mereka akan melukai ayah. Mereka telah menyiapkan banyak uang bagi siapa saja yang berhasil melukai ayah.\”
+\n\nNabi saw lalu berkata, \“Tenanglah Fatimah, Allah akan memberikan pertolongan-Nya. Sekarang, bawakan air untukku!\” Perintah Nabi Saw. Fatimah segera melaksanakan perintah ayahnya. Setelah itu, Nabi saw berwudu, lalu pergi ke masjid.
+\n\nAda satu hal yang aneh saat itu. Ketika orang-orang Qurays melihat Nabi saw keluar rumah, mereka menundukkan kepalanya dan tidak berani mengangkat kepala. Nabi saw pun mengambil segenggam tanah dan melontarkan tanah itu kepada mereka sambil membaca Syaahatil wujuuh. Maka orang-orang Qurays yang terkena lemparan tanah itu kelak semuanya mati terbunuh dalam perang Badar.
+"
+
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:padding="20dp"
+    tools:context=".Rukun1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/navy"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_rukun1" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/rukun" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:justificationMode="inter_word"
+                    android:text="Salah satu hadist yang menjelaskan tentang 3 rukun utama dalam agama islam adalah hadist Jibril yang terkenal dari sahabat Umar Ra.
+Dari hadist Jibril tersebut, ketika Malaikat Jibril bertanya tentang Islam, Nabi Muhammad menjawab:
+"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="الإِسْلَامُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللهُ وَأَنَّ مُحَمَّدًا رَسُوْلُ اللهِ ، وَتُقِيْمَ الصَّلاَةَ ، وَتُؤْتِيَ الزَّكَاةَ ، وَتَصُوْمَ رَمَضَانَ ، وَتَحُجَّ البَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيْلاً"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Artinya:
+\“Islam itu engkau bersaksi bahwa tidak ada sesembahan (yang haq) selain Allah dan Bahwasannya Muhammad adalah utusan Allah, engkau dirikan solat, menunaikan zakat, berpuasa romadhon, dan berhaji ke Baitullah jika engkau mampu menempuh perjalanan ke sana\”.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pelajaran yang dapat diambil dari hadist tersebut adalah bahwa Islam itu meliputi lima rukun. Kelima rukun islam itu adalah sebagai berikut:
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Syahadat.
+Syahadat merupakan suatu kesaksian bahwa kita mengakui tidak ada yang patut kita sembah selain Allah dan Nabi Muhammad adalah utusan Allah.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Sholat.
+Rukun Islam yang kedua ini merupakan suatu bentuk interaksi atau hubungan vertikal kita sebagai seorang hamba dengan Rabb-nya.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Zakat.
+Dalam rukun Islam yang ketiga, kita diwajibkan untuk menunaikan zakat, dimana hal tersebut merupakan bentuk kepedulian kita terhadap sesama manusia.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Puasa.
+Puasa merupakan suatu amalan dimana kita harus menahan diri dari lapar, haus, dan juga hawa nafsu.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Haji.
+Selain sebagai bentuk ibadah, haji juga merupakan suatu ajang untuk mempererat ukhuwah dengan sesama umat muslim dari seluruh dunia. Rukun Islam yang terakhir ini dilaksanakan bagi umat islam yang mampu.
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:justificationMode="inter_word"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

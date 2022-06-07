@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/k1_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah1" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/kisah1" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/k1_img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Suatu hari, Rasulullah memberikan sebuah teka-teki kepada para sahabatnya. Beliau berkata, \“Siapa di antara kalian yang dapat mengkhatamkan Al-Quran (membaca 30 Juz Al-Quran) dalam waktu 2-3 menit?\”. Para sahabat terkejut mendengar teka-teki Rasulullah. Umar bin Khattab lalu berkata, \“Ya Rasulullah, itu adalah hal yang mustahil kita lakukan?\”
+\n\n\“Itu hal yang mungkin kalian lakukan,\” jawab Rasulullah. Tak lama kemudian, Ali bin Abi Thalib yang pada waktu itu masih kecil mengangkat tangannya seraya berkata, \“Saya bisa, ya, Rasul!\”
+\n\nRasulullah pun berkata, \“Ali, coba kamu kemukakan pendapatmu!\” Ali kemudian membaca surat Al-Ikhlash sampai selesai, sebanyak tiga kali. Rasulullah lalu bersabda, \“Barang siapa membaca Surat Al-Ikhlas sekali, pahalanya sama dengan membaca Al-Quran 10 juz.\” Jadi, barang siapa yang membaca surat Al-Ikhlas sebanyak tiga kali, pahalanya sama dengan telah mengkhatamkan Al-Quran 30 Juz.
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

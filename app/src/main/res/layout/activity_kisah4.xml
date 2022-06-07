@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah4">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/k4_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah4" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/kisah4" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/k4_img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Hasan dan Husein adalah cucu kesayangan Rasulullah saw. Mereka dikenal memiliki akhlak yang sangat mulia. Di antaranya, mereka sangat menghormati orang yang lebih tua. Suatu ketika, Hasan dan Husein melihat seorang laki-laki tua sedang berwudu. Namun, cara berwudunya banyak yang salah. Bahkan, cara shalatnya pun tidak sempurna. Melihat pemandangan itu, Hasan dan Husein bermaksud mengingatkannya. Namun, mereka takut laki-laki tua itu merasa tersinggung.
+\n\nHasan dan Husein lalu berpikir. Tak lama kemudian, keduanya berpura-pura bertengkar dan meminta laki-laki itu memutuskan siapa yang paling benar di antara keduanya tentang cara berwudu dan shalat mereka.
+\n\nLaki-laki tua itu terkejut ketika menyaksikan pertengkaran Hasan dan Husein. Dia justru tersadar bahwa sebenarnya dia-lah yang keliru dalam berwudu. Ia pun mengakuinya pada Hasan dan Husein. Hasan dan Husein akhirnya merasa lega karena mereka dapat menyadarkan kekeliruan laki-laki tua itu tanpa menyinggung perasaannya.
+"
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

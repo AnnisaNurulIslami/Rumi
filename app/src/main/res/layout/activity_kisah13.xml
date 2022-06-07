@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="20dp"
+    tools:context=".Kisah13">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:background="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner_kisah13" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/kisah13" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Seorang laki-laki datang menemui Rasulullah saw. Ia memohon agar beliau memberikan makanan. Rasulullah yang saat itu tidak memiliki makanan menyuruh laki-laki itu menemui Fatimah.
+\n\nFatimah saat itu hanya memiliki sebuah kalung emas pemberian bibinya. Ia lalu memberikannya kepada laki-laki itu. Laki-laki itu lalu menemui Rasulullah dan memperlihatkan kalung emas itu kepada beliau. Tak Lama kemudian, Abdurrahman bin Auf datang. Ia membeli kalung emas itu. Laki-laki berterima kasih kepada Rasulullah dan pamit pulang.
+\n\nBeberapa hari kemudian, utusan Abdurrahman bin Auf bernama Saham datang. Ia membawa pesan dari tuannya untuk memberikan kalung emas dan seorang budak pada Rasulullah. Rasul pun menerima pemberian itu dan memerintahkan Saham agar memberikan kalung emas itu pada Fatimah.  Saham lalu menemui Fatimah.
+\n\nFatimah berkata pada Saham, \“Aku menerima kalung ini dan aku memerdekakanmu.\”
+\n\nBudak yang telah dimerdekakan itu berkata pada Fatimah, \“Saya sangat senang menyaksikan sedekah dari tangan ke tangan berikutnya. Kalung emas itu kembali padamu. Sementara itu, sedekahmu telah mengayakan orang miskin dan mendatangkan pahala bagi Abdurrahman bin Auf. Bahkan, kini kau telah membebaskanku. Maka karena kalung ini juga kamu akan masuk surga.\”
+"
+
+                android:textColor="@color/white"
+                android:justificationMode="inter_word"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
